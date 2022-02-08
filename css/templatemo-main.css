@@ -187,9 +187,9 @@ x {
 }
 
 em {
-  color: #3CC;
-  font-weight: 600;
-  font-style: normal;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-style: italic;
 }
 
 .baner-content span {
