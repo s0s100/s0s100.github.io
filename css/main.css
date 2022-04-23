@@ -32,7 +32,7 @@ section {
 
 body {
   position: relative;
-  /* we need this for the scrollspy */
+  background-color: #6b72ad;
   font-size: 14px;
   color: #fff;
 }
@@ -482,7 +482,7 @@ section {
 footer {
   text-align: center;
   background-color: #282b2f;
-  padding: 70px 0px;
+  padding: 20px 0px;
 }
 
 footer .primary-button {
