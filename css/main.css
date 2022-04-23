@@ -9,7 +9,7 @@
 
 .project {
   margin-right: 0px;
-  border-right: 0px; 
+  border-right: 0px;
 }
 
 .info {
@@ -30,15 +30,20 @@ section {
   background: #fff;
 }
 
-body { 
-  position: relative; /* we need this for the scrollspy */ 
+body {
+  position: relative;
+  /* we need this for the scrollspy */
   font-size: 14px;
   color: #fff;
 }
 
-a { color: #2759ff; }
+a {
+  color: #2759ff;
+}
 
-a:hover { color: #3CC; }
+a:hover {
+  color: #3CC;
+}
 
 h3 {
   font-size: 48px;
@@ -51,8 +56,10 @@ h3 {
   padding: 20px;
 }
 
-.service-item ul, .service-item li {
-  margin: 0; padding: 0;
+.service-item ul,
+.service-item li {
+  margin: 0;
+  padding: 0;
   text-align: left;
   padding-left: 0pt;
 }
@@ -68,13 +75,13 @@ h3 {
 }
 
 .primary-button {
-  text-align:center;
+  text-align: center;
   margin-top: 30px;
   margin-bottom: 50px;
 }
 
 x {
-  color:#3CC;
+  color: #3CC;
   font-weight: bold;
 }
 
@@ -94,10 +101,12 @@ x {
   -webkit-transition: all .3s;
   transition: all .3s;
 }
+
 .fixed-side-navbar:hover {
   background: transparent;
 }
-.fixed-side-navbar:hover .nav > li > a > span {
+
+.fixed-side-navbar:hover .nav>li>a>span {
   color: rgba(0, 0, 0, 0.5);
   display: block;
   background-color: #fff;
@@ -107,15 +116,18 @@ x {
   padding: 2px 12px;
   border-radius: 15px;
 }
-.fixed-side-navbar .nav > li a.active {
+
+.fixed-side-navbar .nav>li a.active {
   background-color: transparent;
   color: black;
 }
-.fixed-side-navbar .nav > li a.active:after {
+
+.fixed-side-navbar .nav>li a.active:after {
   -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  transform: scale(0.9);
 }
-.fixed-side-navbar .nav > li a.active:before {
+
+.fixed-side-navbar .nav>li a.active:before {
   content: '';
   position: absolute;
   top: 50%;
@@ -127,23 +139,27 @@ x {
   border: 2px solid #fff;
   border-radius: 10px;
 }
+
 .nav>li {
   position: relative;
   display: block;
 }
-.fixed-side-navbar .nav > li a {
+
+.fixed-side-navbar .nav>li a {
   color: #fff;
   min-height: 32px;
   background: transparent;
   padding: 5px 45px 5px 25px;
   border-right: none;
 }
-.fixed-side-navbar .nav > li a span {
+
+.fixed-side-navbar .nav>li a span {
   display: none;
   -webkit-transition: all .2s;
   transition: all .2s;
 }
-.fixed-side-navbar .nav > li a:after {
+
+.fixed-side-navbar .nav>li a:after {
   content: '';
   position: absolute;
   top: 50%;
@@ -156,22 +172,24 @@ x {
   -webkit-transition: all .3s;
   transition: all .3s;
   -webkit-transform: scale(0.6);
-          transform: scale(0.6);
+  transform: scale(0.6);
 }
-.fixed-side-navbar .nav > li a:hover {
+
+.fixed-side-navbar .nav>li a:hover {
   background-color: transparent;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border-color: black;
 }
-.fixed-side-navbar .nav > li a:hover > span {
+
+.fixed-side-navbar .nav>li a:hover>span {
   color: black;
   display: block;
 }
 
 .fadeInRight {
   -webkit-animation-name: fadeInRight;
-          animation-name: fadeInRight;
+  animation-name: fadeInRight;
 }
 
 
@@ -235,7 +253,7 @@ em {
   padding-right: 15px;
   padding-top: 15vh;
   /*background-image: url(../img/2nd-section.jpg);*/
-  background-color: #656472;  
+  background-color: #6b72ad;
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -248,7 +266,8 @@ em {
   color: #fff;
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: 18px;
 }
 
@@ -296,9 +315,9 @@ h4, .h4 {
 
 .myImg {
   border-radius: 8px;
-  width: 120px; 
+  width: 120px;
   height: 160px;
-  border:5px solid black
+  border: 5px solid black
 }
 
 .projects-content {
@@ -388,15 +407,15 @@ section {
 }
 
 .tabs a {
-  display:block;
-  text-align:center;
-  text-decoration:none;
-  text-transform:uppercase;
-  color:#fff;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
   font-size: 14px;
   font-weight: 700;
-  padding:10px 15px;
-  border:4px solid #fff;
+  padding: 10px 15px;
+  border: 4px solid #fff;
 }
 
 .tabs a:hover {
@@ -404,7 +423,7 @@ section {
 }
 
 .tabs .active {
-  border:4px solid #2759ff;
+  border: 4px solid #2759ff;
 }
 
 .tabgroup p {
@@ -414,9 +433,9 @@ section {
 }
 
 .clearfix:after {
-  content:"";
-  display:table;
-  clear:both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 #contact textarea {
@@ -515,8 +534,8 @@ footer em {
   font-style: normal;
 }
 
-@media (max-width: 767px){
-  
+@media (max-width: 767px) {
+
   .baner-content {
     padding-top: 30vh;
   }
