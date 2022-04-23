@@ -62,6 +62,12 @@ a:hover { color: #3CC; }
 h3 {
   font-size: 48px;
   font-weight: bold;
+  font-style: italic;
+  padding: 20px;
+}
+
+.project-info {
+  padding: 20px;
 }
 
 .service-item ul, .service-item li {
@@ -75,6 +81,10 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   margin-top: -10px;
+}
+
+.col-md-4 {
+  padding-right: 0px;
 }
 
 .primary-button {
@@ -466,7 +476,9 @@ section {
   padding: 30px 20px;
 }
 
-
+.navbar-toggler {
+  border: hidden;
+}
 
 footer {
   text-align: center;

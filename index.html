@@ -3,12 +3,11 @@
 
 <head>
     <link rel="icon" href="img/icon.jpg">
+    <title>Mike portfolio</title>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Mike portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontAwesome.css">
@@ -20,10 +19,6 @@
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
-<!--
-Vanilla Template
-https://templatemo.com/tm-526-vanilla
--->
 
 <body>
 
@@ -39,7 +34,7 @@ https://templatemo.com/tm-526-vanilla
         <div class="container">
             <div class="first-content">
                 <h1>Mikhail Okrugov</h1>
-                <span><em>Sortware engineer</em></span>*/
+                <span><em>Sortware engineer</em></span> ;)
                 <div class="primary-button">
                     <a href="#about">About me</a>
                 </div>
@@ -54,9 +49,9 @@ https://templatemo.com/tm-526-vanilla
                 <div class="col-md-4">
                     <div class="left-text">
                         <img src="img/MyPhoto.jpg" class="myImg">
-                        <h4>What is it all about?</h4>
+                        <h4>Hello</h4>
                         <div class="line-dec"></div>
-                        <p>Hey there, I am a UK final year student who has a passion to learn new technologies and
+                        <p>I am a UK final year student who has a passion to learn new technologies and
                             create interesting projects</p>
                         <p>I have made this website to show my achievements in the IT field as well as show some of my
                             projects</p>
@@ -102,7 +97,7 @@ https://templatemo.com/tm-526-vanilla
                                         <x>2020:</x> 7090 place out of 10724 teams
                                     </li>
                                     <li>
-                                        <x>2021:</x> Top 4% around the world
+                                        <x>2021:</x> 372 place out of 9001 teams
                                     </li>
                                     <li>
                                         <x>2022:</x> 3371 place out of 9031 teams
@@ -197,23 +192,26 @@ https://templatemo.com/tm-526-vanilla
 
             <div class="col-md-8 text-center">
                 <h3> Final year project </h3>
-                I am currently working on this project, where I implement graphics engine using
-                computer graphics in combination with linear algebra and math
-                <br>
-                The main idea is to implement multiple elements in combination with light and shadows
+
+                <div class="project-info">
+
+                    I am currently working on this project, where I implement graphics engine using
+                    computer graphics in combination with linear algebra and math
+                    <br>
+                    Th e main idea is to implement multiple elements in combination with light and shadows
+                </div>
             </div>
 
             <div class="col-md-4">
-                <div class="row-md-4">
-                    <img class="project-gif" src="img/gifs/Final project showcase.gif" alt="">
-                    <div class="row-md-4 pos-f-t bg-dark">
-                        <div class="collapse" id="navbarToggleExternalContent">
-                            <div class="bg-transparent p-4">
-                                <h4 class="text-white">Used technologies</h4>
-                                <span> C++ </span>
-                                <br>
-                                <span> OpenGL </span>
-                            </div>
+                <img class="project-gif" src="img/gifs/Final project showcase.gif" alt="">
+                <div class="row-md-4 pos-f-t bg-dark">
+                    <div class="collapse" id="navbarToggleExternalContent">
+                        <div class="bg-transparent p-4">
+                            <ul>
+                                <li> C++ </li>
+                                <li> OpenGL </li>
+                                <li> GLSL </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -227,14 +225,15 @@ https://templatemo.com/tm-526-vanilla
                     </button>
 
                     <span>
-                        <h5>Graphics engine </h5>
-                    </span>
-
-                    <span>
                         <a href="https://github.com/s0s100/Final-Project">
                             <i class="fa fa-github-square"> Git</i>
                         </a>
                     </span>
+
+                    <span>
+                        <h5>Graphics engine </h5>
+                    </span>
+
                 </nav>
             </div>
         </div>
@@ -242,7 +241,13 @@ https://templatemo.com/tm-526-vanilla
 
         <div class="row even project">
             <div class="col-md-8 text-center">
-                <h3> Mandelbrot & Julia sets </h3>
+                <div class="container">
+                    <h3> Mandelbrot & Julia sets </h3>
+                    <div class="project-info">
+                        Insipired by fractal visualizers so decided to make my own using OpenGL
+                        by solving a few equations with imagenary nubmers
+                    </div>
+                </div>
             </div>
 
             <div class="col-md-4">
@@ -251,10 +256,11 @@ https://templatemo.com/tm-526-vanilla
                     <div class="row-md-4 pos-f-t bg-dark">
                         <div class="collapse" id="navbarToggleExternalContent2">
                             <div class="bg-transparent p-4">
-                                <h4 class="text-white">Used technologies</h4>
-                                <span> C++ </span>
-                                <br>
-                                <span> OpenGL </span>
+                                <ul>
+                                    <li> C++ </li>
+                                    <li> OpenGL </li>
+                                    <li> GLSL </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -269,14 +275,60 @@ https://templatemo.com/tm-526-vanilla
                     </button>
 
                     <span>
-                        <h5>Set visualizer </h5>
-                    </span>
-
-                    <span>
                         <a href="https://github.com/s0s100/FractalShader">
                             <i class="fa fa-github-square"> Git</i>
                         </a>
                     </span>
+
+                    <span>
+                        <h5>Recursion visualizer </h5>
+                    </span>
+
+                </nav>
+            </div>
+        </div>
+
+        <div class="row odd project">
+
+            <div class="col-md-8 text-center">
+                <h3> Convays game of life </h3>
+
+                <div class="project-info">
+                    Long time ago decided to learn more about Java so I have made such real-time
+                    life simulator with an option to interact with applcation
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <img class="project-gif" src="img/gifs/GameOfLife showcase.gif" alt="">
+                <div class="row-md-4 pos-f-t bg-dark">
+                    <div class="collapse" id="navbarToggleExternalContent">
+                        <div class="bg-transparent p-4">
+                            <ul>
+                                <li> Java </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <nav class="row-md-4 navbar navbar-dark bg-dark">
+                    <button class="navbar-toggler " type="button" data-toggle="collapse"
+                        data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                        aria-expanded="true" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        Tech stack
+                    </button>
+
+                    <span>
+                        <a href="https://github.com/s0s100/Conways-Game-of-Life">
+                            <i class="fa fa-github-square"> Git</i>
+                        </a>
+                    </span>
+
+                    <span>
+                        <h5> Life simulation </h5>
+                    </span>
+
                 </nav>
             </div>
         </div>
