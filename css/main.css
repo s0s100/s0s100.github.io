@@ -72,6 +72,7 @@ h3 {
   font-weight: bold;
   font-style: italic;
   padding: 20px;
+  padding-bottom: 0px;
 }
 
 .project-info {
@@ -561,7 +562,6 @@ footer em {
   }
 
   .service-content .service-item {
-    background-color: rgba(0, 0, 0, 0.5);
     padding: 25px 30px;
     text-align: center;
     color: #fff;
