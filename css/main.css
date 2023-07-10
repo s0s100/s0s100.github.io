@@ -1,6 +1,10 @@
-/* html * {
-  font-family: 
-} */
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
 .project-gif {
   width: auto;
@@ -40,6 +44,12 @@ a:hover {
   margin-bottom: 15px;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.project-gif {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .info {
@@ -247,9 +257,22 @@ x {
 
 
 .baner-content {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
   padding-top: 30vh;
   text-align: center;
   background-image: url(../img/IntroPhoto.jpg);
+}
+
+.banner-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .baner-content h1 {
