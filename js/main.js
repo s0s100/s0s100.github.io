@@ -48,17 +48,17 @@ const portfolioData = [
   {
     title: 'Multiverse rift',
     description:
-      'First released project on App Store (Currently testing on Google Play platform). The complete project, where I wrote all the project logic, user interface, and animators. The images and most of the animations are made with the assistance of my friends and with Midjourney neural network. Analytics and Ads systems are included as well. The music is written in a retro-wave style.',
+      'Become a hero and conquer challenging procedurally generated levels in a 2D platformer style, where each attempt offers a unique experience. Embark on an epic 2D platformer adventure in a dynamically generated world of endless possibilities! In Epic Runner, every run is a unique experience as you explore thrilling locations and face challenging obstacles and bosses.',
     technologies: ['Unity', 'C#', 'GLSL'],
     image: 'img/gifs/Multiverse rift.gif',
-    appStore: 'https://apps.apple.com/us/app/multiverse-rift/id6450510965'
-    // googlePlay: 'Link to the android project'
+    appStore: 'https://apps.apple.com/us/app/multiverse-rift/id6450510965',
+    googlePlay: 'https://play.google.com/store/apps/details?id=com.IvanWizardovsstudio.MultiverseRift'
   },
 
   {
     title: 'Graphics engine',
     description:
-      'Custom graphics rendering engine utilizing GPU to process objects on the screen. The main idea is to implement multiple elements in combination with light and shadows',
+      'Custom graphics rendering engine utilizing GPU to process objects on the screen. The main idea is to implement multiple elements in combination with light and shadows.',
     technologies: ['C++', 'OpenGL', 'GLSL'],
     image: 'img/gifs/Final project showcase.gif',
     githubLink: 'https://github.com/s0s100/Final-Project'
@@ -67,7 +67,7 @@ const portfolioData = [
   {
     title: 'Mandelbrot & Julia sets',
     description:
-      'After being inspired by fractal visualizers I have made my own using OpenGL by solving a few equations with imaginary numbers',
+      'After being inspired by fractal visualizers I have made my own using OpenGL by solving a few equations with imaginary numbers.',
     technologies: ['C++', 'OpenGL', 'GLSL'],
     image: 'img/gifs/Mandelbrot showcase.gif',
     githubLink: 'https://github.com/s0s100/FractalShader'
@@ -75,7 +75,7 @@ const portfolioData = [
   {
     title: 'Conway\'s Game of Life',
     description:
-      'Interactive real-time mathematical life simulator. Reads the input from the window and changes the state of the pixels there.',
+      'Interactive real-time mathematical life simulator.',
     technologies: ['Java'],
     image: 'img/gifs/GameOfLife showcase.gif',
     githubLink: 'https://github.com/s0s100/Conways-Game-of-Life'
@@ -83,21 +83,21 @@ const portfolioData = [
   {
     title: 'Mobile game',
     description:
-      'The 2D project I created with my friend using the Unity engine. All the models are drawn and animations are made by me.',
+      '2D Tower Defence project written with C# with Unity engine.',
     technologies: ['C#', 'Unity engine'],
     image: 'img/gifs/Mobile game showcase.gif'
   },
   {
     title: 'Voxel reader/renderer',
     description:
-      'Computer graphics project with voxel reading for and displaying it in slice, different opacity, and 3D rendering with implemented light.',
+      'Computer graphics project with voxel reading for and displaying it in slice, different opacity, and 3D rendering with implemented light using CPU.',
     technologies: ['Java'],
     image: 'img/gifs/Voxel renderer.gif'
   }, 
   {
     title: 'Pacman project',
     description:
-      'My first project with UI, level editor',
+      'My first project with UI with text level editor, interface and simple enemy AI.',
     technologies: ['Pascal'],
     image: 'img/gifs/Pacman showcase.gif'
   }
@@ -108,7 +108,7 @@ const container = document.getElementById('portfolio-container');
 
 portfolioData.forEach(item => {
   const row = document.createElement('div');
-  row.classList.add('row', 'project', item.technologies.length % 2 === 0 ? 'even' : 'odd'); // Apply necessary CSS classes
+  row.classList.add('row', 'project', 'proj'); // Apply necessary CSS classes
 
   const colLeft = document.createElement('div');
   colLeft.classList.add('col-md-8', 'text-center');
@@ -134,7 +134,7 @@ portfolioData.forEach(item => {
     const gitLink = document.createElement('a');
     gitLink.classList.add('git-link');
     gitLink.href = item.githubLink;
-    gitLink.innerHTML = '<i class="fab fa-github"></i> Git page ';
+    gitLink.innerHTML = '<i class="fab fa-github"></i> Git page';
     
     projectInfo.appendChild(gitLink);
   }
@@ -143,7 +143,7 @@ portfolioData.forEach(item => {
     const gitLink = document.createElement('a');
     gitLink.classList.add('git-link');
     gitLink.href = item.appStore;
-    gitLink.innerHTML = '<i class="fa-brands fa-apple"></i> App store ';
+    gitLink.innerHTML = '<i class="fa-brands fa-apple"></i> App store    ';
     
     projectInfo.appendChild(gitLink);
   }
@@ -152,7 +152,7 @@ portfolioData.forEach(item => {
     const gitLink = document.createElement('a');
     gitLink.classList.add('git-link');
     gitLink.href = item.googlePlay;
-    gitLink.innerHTML = '<i class="fa-brands fa-android"></i> Google play ';
+    gitLink.innerHTML = '<i class="fa-brands fa-android"></i> Google play';
     
     projectInfo.appendChild(gitLink);
   }  
